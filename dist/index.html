@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script defer src="index.js"></script></head>
+
+<body>
+    <main>
+        <div class="container flex column">
+            <div class="container__header flex">
+                <h1>Today's To Do</h1>
+                <button type="button" class="btn btn--refresh">
+                    <i class="icon icon--refresh"></i>
+                </button>
+            </div>
+            <form class="add__task flex" method="post" action="/">
+                <input type="text" placeholder="Add your list...">
+                <button type="submit" class="btn"><i class="icon icon--enter"></i></button>
+            </form>
+            <ul class="nav nav__items" id="list_navv">
+            </ul>
+            <div class="clear">
+                <button type="button" class="btn clear--all" id="clearAllBTN">Clear all completed</button>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
