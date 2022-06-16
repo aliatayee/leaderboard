@@ -1,0 +1,18 @@
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: lightgrey;
+  color: black;
+  text-align: center;
+  margin-right: 5px;
+}
+
+table tr td {
+  text-align: left;
+}
+
+p {
+  margin-top: 1rem !important;
+}
