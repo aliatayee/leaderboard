@@ -1,5 +1,96 @@
-main {
-  margin-bottom: 20%;
+@media screen and (max-width: 720px) {
+  main {
+    margin-bottom: 20%;
+  }
+}
+
+body {
+  background: #22272e !important;
+}
+
+h1 {
+  color: #2f7cf5;
+}
+
+h3 {
+  color: white;
+}
+
+.btn {
+  background-color: #119f3a !important;
+  border: #119f3a !important;
+}
+
+.card {
+  border-color: #6a6a6a91 !important;
+  background-color: transparent !important;
+  box-shadow: 0 4px 8px 2px #06080ac4;
+}
+
+.card-body {
+  color: white !important;
+  background-color: #2d333b;
+  padding: 0 !important;
+  border-radius: 0.25rem !important;
+}
+
+table {
+  margin-bottom: 0 !important;
+}
+
+tbody {
+  max-height: 350px;
+  display: inline-block;
+  overflow-y: scroll;
+  width: 354px !important;
+}
+
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+  background-color: #1e242c !important;
+}
+
+.table > :not(caption) > * > * {
+  width: 354px !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #414953;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+input {
+  background-color: #2d333b !important;
+  color: white !important;
+  border: 1px solid #6a6a6a91 !important;
+  box-shadow: 2px 4px 6px 0 #06080ab0 !important;
+}
+
+input:focus {
+  background-color: #2d333b !important;
+  box-shadow: 1px 2px 6px #000000b8 inset !important;
+  color: white !important;
+  border: 1px solid #6a6a6a67 !important;
 }
 
 .footer {
@@ -7,10 +98,11 @@ main {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: lightgrey;
-  color: black;
+  background: #2d333b;
+  color: rgb(255, 255, 255);
   text-align: center;
   margin-right: 5px;
+  border-top: 1px solid rgba(196, 196, 196, 0.274);
 }
 
 table tr td {
