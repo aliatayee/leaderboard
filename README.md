@@ -1,27 +1,28 @@
 
-# To Do List
-This is a Webpack based to-do-list project. With this app, users can add thier daily routine tasks to the list, mark them as complet, edit them or delete them. 
+# Leaderboard
+This is a Webpack Leaderboard project based on REST API. With this app, you can add players score to the board and get the scores on the leadder board list using API endpoint. 
 ## Major Technologies
 HTML5
 CSS
 JAVASCRIPT
+REST API
 NPM
 WEBPACK
 ### Demo
-[To Do List](https://aliatayee.github.io/to-do-list/)
+Coming Soon
 ### Install & Setup
 
-To setup and install this sample To-Do List project, follow the below steps:
+To setup and install this sample Leaderboard project, follow the below steps:
 - Clone this project by the command: 
 
 ```
-$ git clone https://github.com/aliatayee/to-do-list.git
+$ git clone https://github.com/aliatayee/leaderboard.git
 ```
 
 - Then switch to the project folder by the bellow query:
 
 ```
-$ cd to-do-list
+$ cd leaderboard
 ```
 
 - Then run the below command to install dependencies

@@ -1,21 +1,13 @@
-import inputForm from './inputHandle.js';
-import displayScore from './render.js';
+import { displayScore } from './render.js';
 
 class Score {
   constructor() {
-    this.data = [];
     this.scoreTable = document.querySelector('#score-table');
+    this.url = `https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/IgV49UDacDdHmcp7VPxG/scores/`;
   }
+  render = () => {
+    displayScore(this.scoreTable, this.url);
+  };
 
-    render = () => {
-      inputForm(this.addScore, this.render);
-      displayScore(this.data, this.scoreTable);
-    };
-
-    addScore = (item) => {
-      if (item) {
-        this.data.push(item);
-      }
-    };
 }
 export default Score;
