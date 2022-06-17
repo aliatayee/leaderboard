@@ -1,6 +1,5 @@
-
 const Form = document.getElementById('form');
-export const sendScore = async (url, render) => {
+const sendScore = async (url, render) => {
   try {
     const res = await fetch(url, {
       method: 'POST',
@@ -17,7 +16,7 @@ export const sendScore = async (url, render) => {
     render();
     return res.json();
   } catch (error) {
-    console.log(error);
     return false;
   }
 };
+export default sendScore;
