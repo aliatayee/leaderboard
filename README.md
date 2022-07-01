@@ -12,7 +12,7 @@ This is a Webpack Leaderboard project based on REST API. With this app, you can 
 - [ ] NPM
 - [ ] WEBPACK
 ### Demo
-Coming Soon
+[Live Demo](https://aliatayee.github.io/leaderboard/)
 ### Install & Setup
 
 To setup and install this sample Leaderboard project, follow the below steps:
