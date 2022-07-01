@@ -1,13 +1,16 @@
 
 # Leaderboard
 This is a Webpack Leaderboard project based on REST API. With this app, you can add players score to the board and get the scores on the leadder board list using API endpoint. 
+
+![](./assets/screenshots/Screenshot%20(167).png)
+
 ## Major Technologies
-HTML5
-CSS
-JAVASCRIPT
-REST API
-NPM
-WEBPACK
+- [ ] HTML5
+- [ ] CSS
+- [ ] JAVASCRIPT
+- [ ] REST API
+- [ ] NPM
+- [ ] WEBPACK
 ### Demo
 Coming Soon
 ### Install & Setup
