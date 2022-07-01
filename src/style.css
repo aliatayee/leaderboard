@@ -42,7 +42,7 @@ tbody {
   max-height: 350px;
   display: inline-block;
   overflow-y: scroll;
-  width: 354px !important;
+  width: 100% !important;
 }
 
 tbody,
@@ -111,4 +111,14 @@ table tr td {
 
 p {
   margin-top: 1rem !important;
+}
+
+.card-title {
+  margin-bottom: 0 !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.473);
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
 }
